@@ -13,9 +13,6 @@ class Calculator(object):
 
   def multiply(self, x, y):
     return x * y
- 
-  def add(self, x, y):
-    return x + y 
 
   def mod(self, x, y):
     return x % y
