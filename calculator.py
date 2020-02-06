@@ -23,3 +23,4 @@ class Calculator(object):
 if __name__ == '__main__':
   calculator = Calculator()
   fire.Fire(calculator)
+
