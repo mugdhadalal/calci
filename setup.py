@@ -1,31 +1,28 @@
 #!/usr/bin/python
+from setuptools import find_packages
+
 
 import os
 from setuptools import setup
 
 
-def read(*paths):
-    """ read files """
-    with open(os.path.join(*paths), 'r') as filename:
-        return filename.read()
+with open("README.md") as readme_file:
+    readme = readme_file.read()
 
 setup(
     name="calci",
-    version="0.2",
-    long_description=(read('README.rst')),
+    version="0.1",
     author="Mugdha Dalal",
     author_email="mugdhadalal@gmail.com",
-    url=" https://github.com/mugdhadalal/calci",
-    packages=['calci'],
-    entry_points={
-        'console_scripts': [
-            'calci=calci:main',
-        ],
-    },
+    url="https://github.com/mugdhadalal/calci",
     classifiers=[
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4'
-    ]
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3 :: Only",
+    ],
+    install_requires=['fire', 'setuptools_scm'],
+    entry_points={"console_scripts": ["calci=calci:main"]},
+    long_description=readme,
+    packages=find_packages(include=["calci"]),
 )
-

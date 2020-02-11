@@ -25,8 +25,3 @@ class Calculator(object):
     value = int(input( 'enter the value:' ))
     number = result - value
     return number
-
-
-if __name__ == '__main__':
-  calculator = Calculator()
-  fire.Fire(Calculator)
