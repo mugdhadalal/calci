@@ -1,27 +1,30 @@
 import fire
 
+
 class Calculator(object):
 
-  def add(x, y):
-    result = x + y
-    value = int(input( 'enter the value:' ))
-    number = result + value
-    return number
+  def add(self, x, y):
+      value = x + y
+      number = int(input("enter a no: "))
+      result = value + number
+      return result
 
-  def multiply(x, y):
-    result = x * y
-    value = int(input( 'enter the value:' ))
-    number = result * value
-    return number
+  def multiply(self, x, y):
+      value = x * y
+      number = int(input("enter a no: "))
+      result = value * number
+      return result
 
-  def division(x, y):
-    result = x / y
-    value = int(input( 'enter the value:' ))
-    number = result / value
-    return number
+  def div(self, x, y):
+      value = x / y
+      number = int(input("enter a no: "))
+      result = value / number
+      return result
 
-  def subtract(x, y):
-    result = x - y
-    value = int(input( 'enter the value:' ))
-    number = result - value
-    return number
+  def sub(self, x, y):
+      value = x - y
+      number = int(input("enter a no: "))
+      result = value - number
+      return result
+
+      
