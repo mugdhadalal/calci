@@ -3,6 +3,11 @@ python:
  - 2.7
  - 3.6
 
+stages:
+- linting
+- test
+- deploy
+
 before_install:
   - python --version
   - pip install -U pip
@@ -14,6 +19,9 @@ install:
 before_script:
   - flake8 --version
 
-script: calci solve 
+script:
+ - flake8
+ - flake8 . --exit-zero # Exit with status code "0" even if there are errors
+ - calci solve 
 
 
