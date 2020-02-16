@@ -26,7 +26,9 @@ class Calculator(object):
       result = value - number
       return result
 
-  def solve(self,x):
-      x = 2+3/4*5-1
-      print(x)
+  def solve(self, p):
+      evaluate = p
+      expression = eval(evaluate)
+      print(expression)
+      print(type(expression))
 
