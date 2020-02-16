@@ -37,6 +37,18 @@ Turns the current module into a Fire CLI.
 fire.Fire(component)
 Turns component into a Fire CLI.
 ```
+To create venv
+```
+python3 -m venv env
+```
+To activate env
+```
+source env/bin/activate
+```
+then,install using setup.py file
+```
+python setup.py install
+```
 at the end,run
 ```
 calci solve 2+3*5/1
