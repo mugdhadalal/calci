@@ -1,4 +1,19 @@
 language: python
 python:
+ - 2.7
  - 3.6
- - 3.5
+
+before_install:
+  - python --version
+  - pip install -U pip
+
+install:
+  - pip install flake8
+  - python3 setup.py install  
+
+before_script:
+  - flake8 --version
+
+script: calci solve 
+
+
