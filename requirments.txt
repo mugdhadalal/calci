@@ -1,6 +1,2 @@
 # Editable install with no version control (calci==0.1)
 fire>=0.2.1
-flake8>=3.7.9
-pyflakes==2.1.1
-setuptools-scm>=3.4.3
-virtualenv==16.7.9

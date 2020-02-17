@@ -3,6 +3,6 @@ import fire
 
 class Calculator(object):
 
-    def solve(self, evaluate):
-        expression = eval(evaluate)
-        print(expression)
+    def solve(self, expression):
+        evaluate = eval(expression)
+        print(evaluate)
