@@ -1,5 +1,4 @@
-##**A Simple Calculator Project**
-
+# A simple Calculator Project
 
 In this project, i used a *Fire* to solve expressions such as BODMAS,which solves multiple operations i.e addition,subtraction,multiplication and division. Where *fire* is a Python library that will turn any Python component into a command line interface with just a single call to Fire.
 The easiest way to use *Fire* is to take any Python program, and then simply call fire.Fire() at the end of the program. This will expose the full contents of the program to the command line.
@@ -32,10 +31,8 @@ $ calci
 
 NAME
     calci
-
 SYNOPSIS
     calci COMMAND
-
 COMMANDS
     COMMAND is one of the following:
 
