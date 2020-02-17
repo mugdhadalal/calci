@@ -2,16 +2,50 @@
 
 
 In this project, i used a *Fire* to solve expressions such as BODMAS,which solves multiple operations i.e addition,subtraction,multiplication and division. Where *fire* is a Python library that will turn any Python component into a command line interface with just a single call to Fire.
+The easiest way to use *Fire* is to take any Python program, and then simply call fire.Fire() at the end of the program. This will expose the full contents of the program to the command line.
 
 **Getting Started**
 
-To install Python Fire from pypi, run:
-> pip install fire
+How to run project?
 
-Alternatively, to install Python Fire from source, clone the source and run:
-> python setup.py install
+1. Create a virtual environment on your local machine
+```
+python3 -m venv env
+```
+2. Activate virtual environment
+```
+source env/bin/activate
+```
+3. Make a local directory
 
-The easiest way to use *Fire* is to take any Python program, and then simply call fire.Fire() at the end of the program. This will expose the full contents of the program to the command line.
+4. Clone project in your directory
+```
+git clone https://github.com/paint-it/pygenpass.git
+```
+5. Install setup.py
+```
+python3 setup.py install
+```
+6. Use command calci,it will show you commands
+```
+$ calci
+
+NAME
+    calci
+
+SYNOPSIS
+    calci COMMAND
+
+COMMANDS
+    COMMAND is one of the following:
+
+     solve
+```
+7. use calci solve EXPRESSION
+```
+$ calci solve 2+4*5/2
+12.0
+```
 
 **Example**
 ```
@@ -28,28 +62,9 @@ Here's how we can run our program from the command line:
 $ python example.py hello World
 Hello World!
 ```
-Just like above example,i have written the code which is then called by solve.
-```
-fire.Fire()
-Turns the current module into a Fire CLI.
-```
-```
-fire.Fire(component)
-Turns component into a Fire CLI.
-```
-To create venv
-```
-python3 -m venv env
-```
-To activate env
-```
-source env/bin/activate
-```
-then,install using setup.py file
-```
-python setup.py install
-```
-at the end,run
-```
-calci solve 2+3*5/1
-```
+
+**Dependancies**
+
+Scripting Language =	Python 3.0+
+
+Command-Line Option  =	fire
