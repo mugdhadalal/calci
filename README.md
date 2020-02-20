@@ -19,7 +19,7 @@ source env/bin/activate
 
 4. Clone project in your directory
 ```
-git clone https://github.com/paint-it/pygenpass.git
+git clone https://github.com/username
 ```
 5. Install setup.py
 ```
