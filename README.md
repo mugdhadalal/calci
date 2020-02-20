@@ -19,7 +19,7 @@ source env/bin/activate
 
 4. Clone project in your directory
 ```
-git clone https://github.com/mugdhadalal/pycalci.git
+git clone https://github.com/mugdhadalal/calci.git
 ```
 5. Install setup.py
 ```
