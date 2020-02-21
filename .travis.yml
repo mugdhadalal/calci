@@ -3,25 +3,19 @@ python:
  - 2.7
  - 3.6
 
-stages:
-- linting
-- test
-- deploy
-
 before_install:
   - python --version
   - pip install -U pip
 
 install:
   - pip install flake8
-  - python3 setup.py install  
+  - python3 setup.py install
 
 before_script:
   - flake8 --version
 
 script:
- - flake8
+ - flake8 calculator.py
  - flake8 . --exit-zero # Exit with status code "0" even if there are errors
- - pycalci solve 
-
+ - pycalci solve expression
 
