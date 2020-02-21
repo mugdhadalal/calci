@@ -1,10 +1,11 @@
+
 #!/usr/bin/python
+
 from setuptools import find_packages
 
 
 import os
 from setuptools import setup
-
 
 with open("README.md") as readme_file:
     readme = readme_file.read()
@@ -21,8 +22,10 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    install_requires=['fire', 'setuptools_scm'],
+    install_requires=['fire>=0.1'],
     entry_points={"console_scripts": ["pycalci=pycalci:main"]},
     long_description=readme,
+    long_description_content_type="text/markdown",
     packages=find_packages(include=["pycalci"]),
 )
+
