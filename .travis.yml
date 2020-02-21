@@ -22,6 +22,6 @@ before_script:
 script:
  - flake8
  - flake8 . --exit-zero # Exit with status code "0" even if there are errors
- - calci solve 
+ - pycalci solve 
 
 

@@ -10,11 +10,11 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="calci",
+    name="pycalci",
     version="0.1",
     author="Mugdha Dalal",
     author_email="mugdhadalal@gmail.com",
-    url="https://github.com/mugdhadalal/calci",
+    url="https://github.com/mugdhadalal/pycalci",
     classifiers=[
         "Natural Language :: English",
         "Programming Language :: Python :: 3.6",
@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     install_requires=['fire', 'setuptools_scm'],
-    entry_points={"console_scripts": ["calci=calci:main"]},
+    entry_points={"console_scripts": ["pycalci=pycalci:main"]},
     long_description=readme,
-    packages=find_packages(include=["calci"]),
+    packages=find_packages(include=["pycalci"]),
 )
