@@ -25,22 +25,22 @@ git clone https://github.com/mugdhadalal/pycalci.git
 ```
 python3 setup.py install
 ```
-6. Use command calci,it will show you commands
+6. Use command pycalci,it will show you commands
 ```
-$ calci
+$ pycalci
 
 NAME
-    calci
+    pycalci
 SYNOPSIS
-    calci COMMAND
+    pycalci COMMAND
 COMMANDS
     COMMAND is one of the following:
 
      solve
 ```
-7. use calci solve EXPRESSION
+7. use pycalci solve EXPRESSION
 ```
-$ calci solve 2+4*5/2
+$ pycalci solve 2+4*5/2
 12.0
 ```
 
