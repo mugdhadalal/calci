@@ -1,2 +1,2 @@
-# Editable install with no version control (calci==0.1)
+# Editable install with no version control (pycalci==0.1)
 fire>=0.2.1

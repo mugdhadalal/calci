@@ -1,5 +1,5 @@
 import fire
-from calci.calculator import Calculator
+from pycalci.calculator import Calculator
 
 def main():
     calculator = Calculator()
