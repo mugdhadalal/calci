@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    install_requires=['fire>=0.1'],
+    install_requires=['fire>=0.0.1'],
     entry_points={"console_scripts": ["pycalci=pycalci:main"]},
     long_description=readme,
     long_description_content_type="text/markdown",
