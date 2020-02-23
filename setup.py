@@ -12,7 +12,7 @@ with open("README.md") as readme_file:
 
 setup(
     name="pycalci",
-    version="0.1",
+    version="0.0.1",
     author="Mugdha Dalal",
     author_email="mugdhadalal@gmail.com",
     url="https://github.com/mugdhadalal/pycalci",
